@@ -39,17 +39,3 @@ The project covers four main areas:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-Only someone with the correct passphrase can extract the hidden content.
-
-Demonstrates how information can be disguised to bypass censorship.
