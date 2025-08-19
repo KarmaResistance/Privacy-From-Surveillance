@@ -59,6 +59,7 @@ The project covers four main areas:
 - If you want visual guidance, watch and follow the steps takes in this video : https://www.youtube.com/watch?v=xLX-SyJLeKA
 
 2. Steganography with Steghide (Optional)
+   
 Steghide is used to hide documents inside images or audio files, making them look harmless. For example, a PDF file can be embedded inside a holiday photo. Only someone with the right passphrase can extract it. Do note that there are image-based, audio & video based, text based and network based. I did image and audio based. You can steghide your documents before you send them to anyone thorugh OnionShare.
 
 - Open a terminal in Tails.
