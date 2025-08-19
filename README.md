@@ -64,13 +64,20 @@ Steghide is used to hide documents inside images or audio files, making them loo
 
 - Open a terminal in Tails.
 - Install steghide with these commands
+  
 = sudo apt update
+
 = sudo apt install steghide
+
 - Embed a file inside an image or audio (PDF inside JPG or WAV) with these commands:
+  
 = steghide embed -cf cover.jpg -ef secret.pdf -sf output.jpg
   (You will set a passphrase.)
+  
 - To extract the file later:
+  
 = steghide extract -sf output.jpg
+
 - Only someone with the passphrase can recover the hidden content.
 - Use AI tools like ChatGPT if you want guidance.
 
@@ -86,9 +93,13 @@ Steghide is used to hide documents inside images or audio files, making them loo
 4. Private Messaging with Briar
 - Download Briar (Android only) from playstore.
 - On both sender and receiver devices:
+  
 = Install Briar.
+
 = Exchange QR codes in person (for maximum security).
+
 = Start chatting over Tor, Wi-Fi or Bluetooth.
+
 - Use Briar for text communication when files aren’t needed.
 - Visual guidance : https://www.youtube.com/watch?v=rI2y3PnqRCI
 
