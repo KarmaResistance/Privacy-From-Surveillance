@@ -63,20 +63,27 @@ The project covers four main areas:
 Steghide is used to hide documents inside images or audio files, making them look harmless. For example, a PDF file can be embedded inside a holiday photo. Only someone with the right passphrase can extract it. Do note that there are image-based, audio & video based, text based and network based. I did image and audio based. You can steghide your documents before you send them to anyone thorugh OnionShare.
 
 - Open a terminal in Tails.
-- Install steghide with these commands
   
-= sudo apt update
+- Install steghide with these commands :
 
-= sudo apt install steghide
+``  
+sudo apt update
+sudo apt install steghide
+``
 
 - Embed a file inside an image or audio (PDF inside JPG or WAV) with these commands:
   
-= steghide embed -cf cover.jpg -ef secret.pdf -sf output.jpg
-  (You will set a passphrase.)
+``
+steghide embed -cf cover.jpg -ef secret.pdf -sf output.jpg
+`` 
+
+(You will set a passphrase.)
   
 - To extract the file later:
-  
-= steghide extract -sf output.jpg
+
+``  
+steghide extract -sf output.jpg
+``
 
 - Only someone with the passphrase can recover the hidden content.
 - Use AI tools like ChatGPT if you want guidance.
@@ -94,11 +101,11 @@ Steghide is used to hide documents inside images or audio files, making them loo
 - Download Briar (Android only) from playstore.
 - On both sender and receiver devices:
   
-= Install Briar.
+- `Install Briar`.
 
-= Exchange QR codes in person (for maximum security).
+- `Exchange QR codes in person` (for maximum security).
 
-= Start chatting over Tor, Wi-Fi or Bluetooth.
+- `Start chatting over Tor, Wi-Fi or Bluetooth`.
 
 - Use Briar for text communication when files aren’t needed.
 - Visual guidance : https://www.youtube.com/watch?v=rI2y3PnqRCI
