@@ -66,24 +66,24 @@ Steghide is used to hide documents inside images or audio files, making them loo
   
 - Install steghide with these commands :
 
-``  
+```  
 sudo apt update
 sudo apt install steghide
-``
+```
 
 - Embed a file inside an image or audio (PDF inside JPG or WAV) with these commands:
   
-``
+```
 steghide embed -cf cover.jpg -ef secret.pdf -sf output.jpg
-`` 
+```
 
 (You will set a passphrase.)
   
 - To extract the file later:
 
-``  
+```  
 steghide extract -sf output.jpg
-``
+```
 
 - Only someone with the passphrase can recover the hidden content.
 - Use AI tools like ChatGPT if you want guidance.
